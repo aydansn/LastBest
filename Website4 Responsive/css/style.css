@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+header .logo h1 {
+  color: rgb(52, 52, 99);
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+header nav ul a {
+  text-decoration: none;
+  color: rgb(34, 175, 175);
+  font-weight: 700;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header nav ul .getstarted {
+  padding: 10px 20px;
+  background-color: rgb(52, 52, 99);
+  color: white;
+  border-radius: 30px;
+}
+
+main {
+  z-index: 1 !important;
+}
+main * {
+  z-index: 1 !important;
+}
+main section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section .left {
+  width: 30%;
+}
+main section .left h1 {
+  font-size: 80px;
+  color: rgb(52, 52, 99);
+}
+main section .left h2 {
+  color: rgb(34, 175, 175);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+main section .left p {
+  color: rgb(34, 175, 175);
+  width: 80%;
+}
+main section .left button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(34, 175, 175);
+  color: white;
+}
+main section .right {
+  width: 60%;
+}
+main section .right img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer i {
+  font-size: 40px;
+  margin: 0px 10px;
+  color: rgb(52, 52, 99);
+}

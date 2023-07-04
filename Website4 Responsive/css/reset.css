@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    z-index: 1 !important;
+}
+.circle{
+    position: absolute;
+            top: 50%;
+            left: 15%;
+            transform: translate(-50%, -50%);
+            height: 1100px;
+            width:1100px;
+            border-radius: 50%;
+            background-color: rgb(193, 245, 255);
+            z-index: -10  !important;
+}
+.container{
+    z-index: 1 !important;
+    width: 90%;
+    margin:  auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media (max-width:768px){
+    header{
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .circle{
+        height: 500px;
+        width:500px;
+    }
+    nav{
+        width: 100%;
+    }
+    ul{
+        margin: auto;
+    }
+    li{
+        margin: 0px !important;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100% !important;
+        text-align: center;
+    }
+    .left h1 {
+        font-size: 40px;
+        line-height: 80px;
+        margin-bottom: 10px;
+    }
+    .left p{
+        width: 100% !important;
+    }
+    .right{
+        width: 100% !important;
+    }
+    footer .container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:510px){
+    header{
+        flex-wrap: wrap;
+        
+    }
+    .logo{
+        margin-bottom: 10px !important;
+    }
+    .circle{
+        height: 500px;
+        width:500px;
+    }
+    nav{
+        width: 100%;
+    }
+    ul{
+        margin: auto;
+        flex-direction: column !important;
+
+    }
+
+    li{
+        margin: 10px 0px !important;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100% !important;
+        text-align: center;
+    }
+    .left h1 {
+        font-size: 35px !important;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .left h2 {
+        font-size: 20px !important;
+
+    }
+    .left p{
+        width: 100% !important;
+    }
+    .right{
+        width: 100% !important;
+    }
+    footer .container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
